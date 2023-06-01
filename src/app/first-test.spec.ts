@@ -8,7 +8,7 @@ describe('First Tests', () => {
   it('should return true if a is true', () => {
     //arrange: initialice the data
     testVariable.a = false;
-    //act
+    //act: get values of methods
     testVariable.a = true;
     //assert
     expect(testVariable.a).toBe(true);
